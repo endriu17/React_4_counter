@@ -35,9 +35,9 @@ var Counter = React.createClass({
 
     render: function() {
         return React.createElement('div', {},
-            React.createElement('span', {}, 'Licznik ' + this.state.counter),
-            React.createElement('button', {onClick: this.increment}, 'Dodaj'),
-            React.createElement('button', {onClick: this.decrement}, 'Odejmij')
+            React.createElement('span', {}, 'Counter ' + this.state.counter),
+            React.createElement('button', {onClick: this.increment}, 'Add'),
+            React.createElement('button', {onClick: this.decrement}, 'Subtract')
         );
     },
 
